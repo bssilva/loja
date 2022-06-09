@@ -1,0 +1,30 @@
+#navbar{
+    border-bottom: 1px solid #000;
+    .header{
+        display: flex;
+        align-items: center;
+        img{
+            width: 55%;
+        }
+        .items-menu{
+            width: 100%;
+            a{
+                text-decoration: none;
+                color: #000;
+                &:hover{
+                    font-weight: bold;
+                }
+            }
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    .v-btn{
+        background-color: transparent !important;
+        box-shadow: unset !important;
+        span{
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../assets/fonts/montserrat.ttf");
+}
+#app {
+    background-color: #f7f7f7;
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    p {
+        font-family: montserrat;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}

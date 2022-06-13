@@ -1,0 +1,44 @@
+#login {
+    margin: 50px 0;
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #fff;
+    }
+    .form-login {
+        display: flex;
+        justify-content: center;
+        .v-form {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            .v-label {
+                color: #fff;
+            }
+            .v-text-field {
+                margin-top: 10px;
+            }
+            .v-btn {
+                margin-left: auto;
+            }
+            .v-btn{
+                box-shadow: unset;
+                background-color: #fff;
+                border: 1px solid #122e36;
+                span{
+                    color: #000;
+                    font-family: montserrat;
+                    text-transform: capitalize;
+                }
+                &:hover{
+                    background-color: #122e36;
+                    border-color: #fff;
+                    span{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        margin-bottom: 50px;
+    }
+}

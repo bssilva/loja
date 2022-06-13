@@ -2,6 +2,7 @@
   <v-app id="app">
     <NavBar />
     <ComoFunciona />
+    <Login />
   </v-app>
 </template>
 

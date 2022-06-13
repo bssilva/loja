@@ -1,4 +1,5 @@
 export default {
+  name: 'Login',
   data() {
     return {
       items: [
@@ -8,12 +9,4 @@ export default {
       ],
     };
   },
-  methods:{
-    moveComoFunciona(){
-      window.scrollTo(0,500)
-    },
-    moveLogin(){
-      window.scrollTo(0,1000)
-    }
-  }
 };

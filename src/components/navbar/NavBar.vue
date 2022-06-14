@@ -9,7 +9,8 @@
         <v-btn>Página inicial</v-btn>
         <v-btn @click="moveComoFunciona">Como funciona</v-btn>
         <!-- <v-btn >Prêmios</v-btn> -->
-        <v-btn @click="moveLogin">Login</v-btn>
+        <v-btn @click="moveLogin" v-if="!notLogin">Login</v-btn>
+        <v-btn @click="moveLogin" v-if="notLogin">Prêmios</v-btn>
       </div>
     </div>
     <div class="banner">

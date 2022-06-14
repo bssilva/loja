@@ -1,0 +1,45 @@
+#prizes{
+    margin: 30px 0;
+    h1{
+        text-align: center;
+        color: #fff;
+        margin: 30px 0;
+    }
+    .carousel-3d-slide{
+        background-color: #122e36;
+        border: 2px solid #FFF;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p{
+            font-family: montserrat;
+            color: #fff;
+            text-align: center;
+        }
+        .name{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .description{
+            font-size: 18px;
+        }
+        .resgate{
+            background-color: #fff;
+            border: 1px solid #122e36;
+            border-radius: 10px;
+            span{
+                color: #122e36;
+                font-family: montserrat;
+            }
+            &:hover{
+                background-color: #122e36;
+                span{
+                    color: #fff;
+                }
+                border-color: #fff;
+            }
+        }
+    }
+}

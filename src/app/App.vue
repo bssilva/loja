@@ -3,6 +3,8 @@
     <NavBar />
     <ComoFunciona />
     <Login />
+    <Prizes />
+    <MeusDados />
   </v-app>
 </template>
 

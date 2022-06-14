@@ -20,6 +20,10 @@ export default {
     },
     moveLogin(){
       window.scrollTo(0,1000)
+    },
+    logout(){
+      sessionStorage.clear()
+      location.reload()
     }
   }
 };

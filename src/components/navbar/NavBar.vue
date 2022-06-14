@@ -11,6 +11,7 @@
         <!-- <v-btn >Prêmios</v-btn> -->
         <v-btn @click="moveLogin" v-if="!notLogin">Login</v-btn>
         <v-btn @click="moveLogin" v-if="notLogin">Prêmios</v-btn>
+        <v-btn @click="logout" v-if="notLogin">Deslogar</v-btn>
       </div>
     </div>
     <div class="banner">

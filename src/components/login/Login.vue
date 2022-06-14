@@ -8,7 +8,7 @@
         <v-label>Login</v-label>
         <v-text-field solo v-model="email"></v-text-field>
         <v-label>Senha</v-label>
-        <v-text-field solo v-model="senha"></v-text-field>
+        <v-text-field solo v-model="senha" type="password"></v-text-field>
         <v-btn @click="login">Login</v-btn>
       </v-form>
     </div>

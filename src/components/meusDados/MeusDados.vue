@@ -3,10 +3,12 @@
     <h1>Meus Dados</h1>
 
     <div class="dados">
-      <p>Nome: {{client.name}}</p>
-      <p>CPF: {{client.cpf}}</p>
-      <p>Email: {{client.email}}</p>
-      <p>Saldo de pontos: {{client.balance}}</p>
+      <div class="infos">
+        <p>Nome: {{client.name}}</p>
+        <p>CPF: {{client.cpf}}</p>
+        <p>Email: {{client.email}}</p>
+        <p>Saldo de pontos: {{client.balance}}</p>
+      </div>
     </div>
   </div>
 </template>
